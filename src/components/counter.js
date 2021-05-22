@@ -9,6 +9,7 @@ function Counter() {
   return (
     <div>
       <div>Current count: {count}</div>
+      <button>test</button>
       <button onClick={decrement}>Decrement</button>
       <button onClick={increment}>Increment</button>
     </div>
